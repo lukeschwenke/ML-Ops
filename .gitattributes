@@ -1,1 +1,4 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+
+# This tells Git to handle CSV's with the Large File Storage (LFS)
+# This is ideal since the CSV files are 50mb+ in size
