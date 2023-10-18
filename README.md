@@ -5,6 +5,10 @@ Luke Schwenke, Aaron Chan
 
 HW 1
 
+### Trouble Shooting Notes
+* Use `tensorflow` version 2.13, 2.14 in incompatible with `tensorflow-privacy`
+* [PyYAML Issue workaround](https://github.com/yaml/pyyaml/issues/736)
+
 ### Switching Data Versions
 
 Assuming your dataset is being tracking using git lfs already.
