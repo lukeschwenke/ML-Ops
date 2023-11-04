@@ -3,8 +3,9 @@ import neptune
 # Create a Neptune run object
 run = neptune.init_run(
     project="mlops-uchicago/mlops-hw2",
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIzM2NkNDA2MS01NDVmLTQxNTItODk3Ny1iNDU1MGQxYzhmZmMifQ==",
-)  # your credentials
+    #api_token= SET_AS_ENV_PARAM
+) 
+
 
 # Log single value
 # Specify a field name ("seed") inside the run and assign a value to it
